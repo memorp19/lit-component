@@ -22,6 +22,7 @@ export class LitComponent extends LitElement {
     super();
     this.title = 'Hey there';
     this.counter = 5;
+    console.log('log ');
   }
 
   __increment() {
